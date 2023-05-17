@@ -8,12 +8,12 @@
         <img
           class="navbar-brand"
           id="imageNavbarWhite"
-          src="img/geofile-logo-blanco.png"
+          src="/img/geofile-logo-blanco.png"
         />
         <img
           class="navbar-brand"
           id="imageNavbarOrange"
-          src="img/geofile-logo-naranja.png"
+          src="/img/geofile-logo-naranja.png"
           style="display: none"
         />
       </a>
@@ -51,43 +51,9 @@
         <img
           class="navbar-brand"
           id="imageNavbarWhite"
-          src="img/geofile-logo-blanco.png"
+          src="/img/geofile-logo-blanco.png"
         />
       </a>
     </div>
   </nav>
 </template>
-
-<!-- Meta Pixel Code -->
-<script>
-export default {
-  mounted() {
-    !(function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function () {
-        n.callMethod
-          ? n.callMethod.apply(n, arguments)
-          : n.queue.push(arguments);
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = "2.0";
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s);
-    })(
-      window,
-      document,
-      "script",
-      "https://connect.facebook.net/en_US/fbevents.js"
-    );
-    fbq("init", "953496749122012");
-    fbq("track", "PageView");
-  },
-};
-</script>
-<!-- End Meta Pixel Code -->

@@ -45,7 +45,7 @@
 
         <div class="col-lg-12 align-self-baseline">
           <img
-            src="img/DevicesGeofileMockup.png"
+            src="/img/DevicesGeofileMockup.png"
             class="img-header img-fluid"
             alt="Image"
           />
@@ -123,7 +123,7 @@
               >
                 <div class="card-body">
                   <img
-                    src="img/icon-administra.png"
+                    src="/img/icon-administra.png"
                     class="icon-slide p"
                     style="text-align: center; padding-left: 4px; padding-right;: 4px"
                   />
@@ -141,7 +141,7 @@
                 aria-label="Slide 2"
               >
                 <div class="card-body">
-                  <img src="img/comparte.png" class="icon-slide" />
+                  <img src="/img/comparte.png" class="icon-slide" />
                   <p class="pb-0 pt-2">Comparte</p>
                   <hr class="progress-active" />
                 </div>
@@ -156,7 +156,7 @@
                 aria-label="Slide 3"
               >
                 <div class="card-body">
-                  <img src="img/monitorea.png" class="icon-slide" />
+                  <img src="/img/monitorea.png" class="icon-slide" />
                   <p class="pb-0 pt-2">Monitorea</p>
                   <hr class="progress-active" />
                 </div>
@@ -170,7 +170,7 @@
           <div class="row item-slide col-aligner g-0">
             <div class="col is-info-mobil">
               <img
-                src="img/administra-mobil.png"
+                src="/img/administra-mobil.png"
                 alt="Administra"
                 style="max-width: 3.5rem"
               />
@@ -185,7 +185,7 @@
 
             <div class="col-md-6">
               <img
-                src="img/sd-administra.png"
+                src="/img/sd-administra.png"
                 class="img-fluid img-data-0"
                 alt="Administra"
               />
@@ -210,7 +210,7 @@
           <div class="row item-slide col-aligner">
             <div class="col is-info-mobil">
               <img
-                src="img/comparte-mobil.png"
+                src="/img/comparte-mobil.png"
                 alt="Comparte"
                 style="max-width: 3.5rem"
               />
@@ -236,7 +236,7 @@
             </div>
             <div class="col-md-6">
               <img
-                src="img/sd-comparte.png"
+                src="/img/sd-comparte.png"
                 class="img-fluid img-data-1"
                 alt="Comparte"
               />
@@ -254,7 +254,7 @@
           <div class="row item-slide col-aligner">
             <div class="col is-info-mobil">
               <img
-                src="img/monitorea-mobil.png"
+                src="/img/monitorea-mobil.png"
                 alt="Monitoreo"
                 style="max-width: 3.5rem"
               />
@@ -269,7 +269,7 @@
 
             <div class="col-md-6">
               <img
-                src="img/sd-monitorea.png"
+                src="/img/sd-monitorea.png"
                 class="img-fluid img-data-2"
                 alt="Monitorea"
                 style="max-height: 25rem; max-width: 25rem"
@@ -318,7 +318,7 @@
       <div
         class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
       >
-        <img class="img-satelite" src="img/satelite.png" alt="Satélite" />
+        <img class="img-satelite" src="/img/satelite.png" alt="Satélite" />
 
         <div class="col-lg-12 align-self-center reveal">
           <h1 class="text-white fw-normal">La única plataforma</h1>
@@ -328,7 +328,7 @@
           </h1>
         </div>
 
-        <img class="img-locacion" src="img/locacion.png" alt="Locación" />
+        <img class="img-locacion" src="/img/locacion.png" alt="Locación" />
       </div>
     </div>
   </section>
@@ -342,33 +342,36 @@
       <div class="row gx-4 gx-lg-5 image reveal">
         <div class="col-lg-3 text-center">
           <div class="mt-5">
-            <img class="img-business" src="img/logos/lg-desur.png" />
+            <img class="img-business" src="/img/logos/lg-desur.png" />
           </div>
         </div>
         <div class="col-lg-3 text-center">
           <div class="mt-5">
-            <img class="img-business" src="img/logos/lg-ordaz.png" />
+            <img class="img-business" src="/img/logos/lg-ordaz.png" />
           </div>
         </div>
         <div class="col-lg-3 text-center">
           <div class="mt-5">
-            <img class="img-business" src="img/logos/lg-haciendas.png" />
+            <img class="img-business" src="/img/logos/lg-haciendas.png" />
           </div>
         </div>
         <div class="col-lg-3 text-center">
           <div class="mt-5">
-            <img class="img-business" src="img/logos/lg-simca.png" />
+            <img class="img-business" src="/img/logos/lg-simca.png" />
           </div>
         </div>
         <div class="row gx-4 gx-lg-5 image">
           <div class="col-lg-6 text-center">
             <div class="mt-3">
-              <img class="img-business-second" src="img/logos/lg-orrisa.png" />
+              <img class="img-business-second" src="/img/logos/lg-orrisa.png" />
             </div>
           </div>
           <div class="col-lg-6 text-center">
             <div class="mt-3">
-              <img class="img-business-second" src="img/logos/lg-geoland.png" />
+              <img
+                class="img-business-second"
+                src="/img/logos/lg-geoland.png"
+              />
             </div>
           </div>
         </div>
@@ -391,42 +394,42 @@
             <div class="item">
               <img
                 class="align-self-center"
-                src="img/logos/lg-desur.png"
+                src="/img/logos/lg-desur.png"
                 width="100%"
               />
             </div>
             <div class="item">
               <img
                 class="align-self-center"
-                src="img/logos/lg-ordaz.png"
+                src="/img/logos/lg-ordaz.png"
                 width="100%"
               />
             </div>
             <div class="item">
               <img
                 class="align-self-center"
-                src="img/logos/lg-haciendas.png"
+                src="/img/logos/lg-haciendas.png"
                 width="100%"
               />
             </div>
             <div class="item">
               <img
                 class="align-self-center"
-                src="img/logos/lg-simca.png"
+                src="/img/logos/lg-simca.png"
                 width="100%"
               />
             </div>
             <div class="item">
               <img
                 class="align-self-center"
-                src="img/logos/lg-orrisa.png"
+                src="/img/logos/lg-orrisa.png"
                 width="100%"
               />
             </div>
             <div class="item">
               <img
                 class="align-self-center"
-                src="img/logos/lg-geoland.png"
+                src="/img/logos/lg-geoland.png"
                 width="100%"
               />
             </div>
@@ -1786,7 +1789,7 @@
             <div class="col-lg-12 mb-5">
               <img
                 class="footer-image"
-                src="img/logos/lg-geofile.png"
+                src="/img/logos/lg-geofile.png"
                 width="20%"
               />
             </div>
