@@ -31,6 +31,7 @@
             type="button"
             class="btn btn-lg-2 btn-navbar"
             href="https://panel.geofile.mx"
+            target="_blank"
           >
             <span class="">Ingresar</span>
             <span class="mdi mdi-account-outline pl-1"></span>
