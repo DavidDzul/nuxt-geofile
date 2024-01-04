@@ -19,15 +19,15 @@
       </a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <div class="navbar-nav ms-auto my-2 my-lg-0">
-          <a
+          <nuxt-link
             type="button"
             class="btn btn-lg-1 btn-navbar me-3"
             href="https://panel.geofile.mx/auth/login"
             target="_blank"
           >
             <span class="">¡Quiero una <b> demo!</b></span>
-          </a>
-          <a
+          </nuxt-link>
+          <nuxt-link
             type="button"
             class="btn btn-lg-2 btn-navbar"
             href="https://panel.geofile.mx"
@@ -35,7 +35,7 @@
           >
             <span class="">Ingresar</span>
             <span class="mdi mdi-account-outline pl-1"></span>
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>
