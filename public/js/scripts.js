@@ -7,9 +7,8 @@
 // Scripts
 // 
 
-window.addEventListener('DOMContentLoaded', event => {
+window.addEventListener('DOMContentLoaded', function () {
 
-    // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         const imageNavbarWhite = document.body.querySelector('#imageNavbarWhite');
@@ -36,13 +35,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
     navbarShrink();
 
-    // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
@@ -51,7 +47,6 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
-    // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
@@ -64,7 +59,6 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    // Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
     });
@@ -75,12 +69,36 @@ window.addEventListener('DOMContentLoaded', event => {
 var arrowBounce = function () {
     var arrow = $(".mdi-arrow-down ");
 
-    if (arrow.hasClass("lift")) {
-        arrow.removeClass("lift");
-    } else {
-        arrow.addClass("lift");
+    if (arrow.length > 0) {
+        arrow.each(function () {
+            if ($(this).hasClass("lift")) {
+                $(this).removeClass("lift");
+            } else {
+                $(this).addClass("lift");
+            }
+        });
     }
 };
 
-// run the arrowBounce function every 800ms
+
+window.addEventListener("scroll", reveal);
+
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 100;
+
+        if (reveals[i] && reveals[i].classList) {
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            } else {
+                reveals[i].classList.remove("active");
+            }
+        }
+    }
+}
+
 setInterval(arrowBounce, 800);

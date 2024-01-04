@@ -8,7 +8,11 @@
           </div>
         </div>
         <div class="col-6 text-end">
-          <nuxt-link class="small text-white" to="/terms-and-conditions">
+          <nuxt-link
+            class="small text-white"
+            to="/terms-and-conditions"
+            rel="noopener"
+          >
             AVISO DE PRIVACIDAD</nuxt-link
           >
         </div>
@@ -19,6 +23,13 @@
 
 <script setup>
 const currentYear = new Date().getUTCFullYear();
+if (typeof window !== "undefined") {
+  window.addEventListener("popstate", function (event) {
+    // Se ejecutará cuando el usuario haga clic en el botón "Atrás" del navegador
+    console.log('Se hizo clic en el botón "Atrás"');
+    // Puedes realizar acciones adicionales aquí según tus necesidades
+  });
+}
 </script>
 
 <style scoped>

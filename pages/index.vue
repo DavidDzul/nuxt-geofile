@@ -1912,8 +1912,45 @@
   </section>
 </template>
 
-<script setup>
-useHead({
-  title: "",
-});
+<script>
+export default {
+  mounted() {
+    this.initOwlCarousel();
+  },
+  methods: {
+    initOwlCarousel() {
+      $("#owl-carouse-prices").owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        center: true,
+        navText: [
+          "<span class='mdi mdi-left mdi-apple-keyboard-control' style='background-color: #f84f01'></span>",
+          "<span class='mdi mdi-right mdi-apple-keyboard-control' style='background-color: #f84f01'></span>",
+        ],
+        autoplay: false,
+        autoplayHoverPause: false,
+        stopOnHover: true,
+        slideSpeed: 500,
+        paginationSpeed: 800,
+        rewindSpeed: 1000,
+        singleItem: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          768: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    },
+  },
+};
 </script>
