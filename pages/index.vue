@@ -342,17 +342,7 @@
       <div class="row gx-4 gx-lg-5 image reveal">
         <div class="col-lg-3 text-center">
           <div class="mt-5">
-            <img class="img-business" src="/img/logos/lg-desur.png" />
-          </div>
-        </div>
-        <div class="col-lg-3 text-center">
-          <div class="mt-5">
-            <img class="img-business" src="/img/logos/lg-ordaz.png" />
-          </div>
-        </div>
-        <div class="col-lg-3 text-center">
-          <div class="mt-5">
-            <img class="img-business" src="/img/logos/lg-haciendas.png" />
+            <img class="img-business" src="/img/logos/lg-vive.png" />
           </div>
         </div>
         <div class="col-lg-3 text-center">
@@ -360,18 +350,40 @@
             <img class="img-business" src="/img/logos/lg-simca.png" />
           </div>
         </div>
+        <div class="col-lg-3 text-center">
+          <div class="mt-5">
+            <img class="img-business" src="/img/logos/lg-desur.png" />
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="mt-5">
+            <img class="img-business" src="/img/logos/lg-aiomar.png" />
+          </div>
+        </div>
         <div class="row gx-4 gx-lg-5 image">
-          <div class="col-lg-6 text-center">
-            <div class="mt-3">
+          <div
+            class="col-lg-3 text-center d-flex align-items-center justify-content-center"
+          >
+            <div class="">
+              <img class="img-business-second" src="/img/logos/lg-bterra.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 text-center d-flex align-items-center">
+            <div class="">
               <img class="img-business-second" src="/img/logos/lg-orrisa.png" />
             </div>
           </div>
-          <div class="col-lg-6 text-center">
-            <div class="mt-3">
+          <div class="col-lg-3 text-center d-flex align-items-center">
+            <div class="">
               <img
                 class="img-business-second"
                 src="/img/logos/lg-geoland.png"
               />
+            </div>
+          </div>
+          <div class="col-lg-3 text-center d-flex align-items-center">
+            <div class="">
+              <img class="img-business-second" src="/img/logos/lg-gea.png" />
             </div>
           </div>
         </div>
@@ -394,21 +406,7 @@
             <div class="item">
               <img
                 class="align-self-center"
-                src="/img/logos/lg-desur.png"
-                width="100%"
-              />
-            </div>
-            <div class="item">
-              <img
-                class="align-self-center"
-                src="/img/logos/lg-ordaz.png"
-                width="100%"
-              />
-            </div>
-            <div class="item">
-              <img
-                class="align-self-center"
-                src="/img/logos/lg-haciendas.png"
+                src="/img/logos/lg-vive.png"
                 width="100%"
               />
             </div>
@@ -416,6 +414,27 @@
               <img
                 class="align-self-center"
                 src="/img/logos/lg-simca.png"
+                width="100%"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="align-self-center"
+                src="/img/logos/lg-desur.png"
+                width="100%"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="align-self-center"
+                src="/img/logos/lg-aiomar.png"
+                width="100%"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="align-self-center"
+                src="/img/logos/lg-bterra.png"
                 width="100%"
               />
             </div>
@@ -430,6 +449,13 @@
               <img
                 class="align-self-center"
                 src="/img/logos/lg-geoland.png"
+                width="100%"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="align-self-center"
+                src="/img/logos/lg-gea.png"
                 width="100%"
               />
             </div>
@@ -473,7 +499,7 @@
                   <h6 class="text-center">Mensuales</h6>
                   <hr />
                   <p class="text-center">
-                    Crea hasta 8 terrenos <br />
+                    Crea hasta 5 terrenos <br />
                     1 GB de almacenamiento.
                   </p>
                   <span class="mdi mdi-close-circle txt-gray"></span>
@@ -570,7 +596,7 @@
                   <h3 class="card-title text-center fw-bold txt-gray">
                     Profesional 15
                   </h3>
-                  <h1 class="text-center fw-bolder txt-orange">$66.67</h1>
+                  <h1 class="text-center fw-bolder txt-orange">$70</h1>
                   <h6 class="text-center">Mensuales</h6>
                   <hr />
                   <p class="text-center">
